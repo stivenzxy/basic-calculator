@@ -1,0 +1,48 @@
+.container input{
+    background: black;
+    color: white;
+    height: 50px;
+    width: 100px;
+    border-radius: 10px;
+    border: 1px dashed white;
+    margin: 2px;
+    font-size: xx-large;
+}
+
+.container input:hover{
+    color: rgb(211,159,255);
+    font-weight: bold;
+}
+
+.full{
+    border: 10px solid rgb(162, 227, 234);
+    margin: 2px;
+    border-radius: 20px;
+    background-image: url(../assets/img/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+input[type="text"]{
+    color:white;
+    text-align: right;
+}
+
+.scroll{
+    height: 250px;
+    max-height: 250px;
+    overflow-y: auto;
+}
+
+.card{
+    margin-top: 25px;
+    margin-right: 20px;
+    background-color: black;
+    border: 1px dashed white;
+}
+
+#history-icon{
+    margin-left: 10px;
+    color: rgb(236, 214, 255);
+}
